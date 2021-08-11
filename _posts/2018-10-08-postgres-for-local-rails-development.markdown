@@ -32,12 +32,12 @@ the built-in package manager without prior setup requried.
 For Debian/Ubuntu this should get you set up and running:
 ```sh
 $ sudo apt update
-$ sudo apt install postgresql
+$ sudo apt install postgresql libpq-dev
 ```
 
 For Homebrew on macOS:
 ```sh
-$ brew install postgresql
+$ brew install postgresql libpq-dev
 ```
 
 For other operating systems you can consult the [official Postgres downloads
